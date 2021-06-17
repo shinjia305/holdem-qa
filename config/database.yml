@@ -27,5 +27,5 @@ test:
 production:
   <<: *default
   database: holdem-qa_production
-  username: holdem
+  username: holdem-qa
   password: <%= ENV['MYAPP_DATABASE_PASSWORD'] %>
