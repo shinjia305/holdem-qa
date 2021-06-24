@@ -11,7 +11,8 @@ default: &default
   encoding: utf8
   username: postgres
   password: password
-  host: localhost
+  host: db
+  port: 5432
 
 development:
   <<: *default
